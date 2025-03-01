@@ -6,36 +6,33 @@ import {
   PopularProducts,
   Services,
   SpecialOffer,
-  Subscribe,
   SuperQuality,
 } from "../src/sections";
 
 const App = () => {
   return (
-    <main className='relative'>
+    <main className="bg-dark-green relative">
       <Nav />
-      <section className='xl:padding-l wide:padding-r padding-b'>
+      <section className="xl:padding-l wide:padding-r padding-b bg-dark-green">
         <Hero />
       </section>
-      <section className='padding'>
+      <section className="padding">
         <PopularProducts />
       </section>
-      <section className='padding'>
+      <section className="padding">
         <SuperQuality />
       </section>
-      <section className='padding-x py-10'>
+      <section className="padding-x py-10">
         <Services />
       </section>
-      <section className='padding'>
+      <section className="padding">
         <SpecialOffer />
       </section>
-      <section className='bg-pale-blue padding'>
+      <section className="padding">
         <CustomerReviews />
       </section>
-      <section className='padding-x sm:py-32 py-16 w-full'>
-        <Subscribe />
-      </section>
-      <section className=' bg-black padding-x padding-t pb-8'>
+
+      <section className=" bg-black padding-x padding-t pb-8">
         <Footer />
       </section>
     </main>

@@ -1,53 +1,53 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
+import { braclet1, braclet2, braclet3, braclet4, braclet5, braclet6, braclet7, braclet8, braclet9, customer1, customer2 } from "../assets/images";
 
 export const navLinks = [
     { href: "#home", label: "Home" },
     { href: "#about-us", label: "About Us" },
     { href: "#products", label: "Products" },
-    { href: "#contact-us", label: "Contact Us" },
+    { href: "#footer", label: "Contact Us" },
 ];
 
 export const shoes = [
     {
-        thumbnail: thumbnailShoe1,
-        bigShoe: bigShoe1,
+        thumbnail: braclet1,
+        bigShoe: braclet1,
     },
     {
-        thumbnail: thumbnailShoe2,
-        bigShoe: bigShoe2,
+        thumbnail: braclet2,
+        bigShoe: braclet2,
     },
     {
-        thumbnail: thumbnailShoe3,
-        bigShoe: bigShoe3,
+        thumbnail: braclet3,
+        bigShoe: braclet3,
     },
 ];
 
 export const statistics = [
     { value: '1k+', label: 'Brands' },
-    { value: '500+', label: 'Shops' },
-    { value: '250k+', label: 'Customers' },
+    { value: '50+', label: 'Items' },
+    { value: '250+', label: 'Customers' },
 ];
 
 export const products = [
     {
-        imgURL: shoe4,
-        name: "Nike Air Jordan-01",
+        imgURL: braclet4,
+        name: "Amethyst",
         price: "$200.20",
     },
     {
-        imgURL: shoe5,
-        name: "Nike Air Jordan-10",
+        imgURL: braclet5,
+        name: "Citrine",
         price: "$210.20",
     },
     {
-        imgURL: shoe6,
-        name: "Nike Air Jordan-100",
+        imgURL: braclet6,
+        name: "Red Jasper",
         price: "$220.20",
     },
     {
-        imgURL: shoe7,
-        name: "Nike Air Jordan-001",
+        imgURL: braclet7,
+        name: "Tiger Eye",
         price: "$230.20",
     },
 ];
@@ -90,29 +90,29 @@ export const footerLinks = [
     {
         title: "Products",
         links: [
-            { name: "Air Force 1", link: "/" },
-            { name: "Air Max 1", link: "/" },
-            { name: "Air Jordan 1", link: "/" },
-            { name: "Air Force 2", link: "/" },
-            { name: "Nike Waffle Racer", link: "/" },
-            { name: "Nike Cortez", link: "/" },
+            { name: "Aura Quartz", link: "#" },
+            { name: "Rose Quartz", link: "#" },
+            { name: "Lapis Lazuli", link: "#" },
+            { name: "Turquoise", link: "#about-us" },
+            { name: "Lava", link: "#special-offer" },
+            { name: "Others", link: "#products" },
         ],
     },
     {
         title: "Help",
         links: [
-            { name: "About us", link: "/" },
-            { name: "FAQs", link: "/" },
-            { name: "How it works", link: "/" },
-            { name: "Privacy policy", link: "/" },
-            { name: "Payment policy", link: "/" },
+            { name: "Home", link: "#" },
+            { name: "About us", link: "#about-us" },
+            { name: "Products", link: "#products" },
+            { name: "Contact Us", link: "#footer" },
+            { name: "For More Details", link: "#footer" },
         ],
     },
     {
         title: "Get in touch",
         links: [
-            { name: "customer@nike.com", link: "mailto:customer@nike.com" },
-            { name: "+92554862354", link: "tel:+92554862354" },
+            { name: "thecrystallounge373@gmail.com", link: "mailto:thecrystallounge373@gmail.com" },
+            { name: "The_Crystal_Lounge", link: "instagram:@The_Crystal_Lounge" },
         ],
     },
 ];
